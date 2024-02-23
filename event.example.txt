@@ -1,0 +1,18 @@
+// make sure the file ends with .js
+
+// make a new file on ./src/event if u want to add events (does not mean real discord events, just discord bot events)
+const ExtendedClient = require('../../class/ExtendedClient');
+
+module.exports = {
+    event: '',
+    once: false,
+    /**
+     * 
+     * @param {ExtendedClient} client
+     * @param {*} args... 
+     * @returns 
+     */
+    run: (client, args...) => {
+        
+    }
+};
