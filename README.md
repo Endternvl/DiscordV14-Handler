@@ -1,6 +1,25 @@
 # Read me before customizing!
 > This is very important.
-# <samp>DiscordJS-V14-Bot-Template</samp> v2
+
+## Basics of JavaScript
+> You might want to know these first before customizing the codes
+```ts
+    module.exports = {
+    structure: {
+        name: string, // string means anything with the apostrophe
+        description: string, // string means anything with the apostrophe
+        aliases: string[], // this one is diffrent. Must be inside of a bracket. For example ["hello", "something here maybe"]
+        permissions?: PermissionResolvable, // reuired discord permission
+        cooldown?: number, // cooldown
+        globalCooldown?: boolean, // boolean means true/false
+        developers?: boolean,
+        nsfw?: boolean
+    },
+    run: (client, message, args) => {} // put ur code in between the {}
+};
+```
+
+# <samp>DiscordJS-V14-Bot-Template</samp>
 
 This discord.js handler is designed to be the most straightforward and user-friendly option for beginners to learn. Despite the absence of any youtube tutorials for this, it is highly recommended to review each line of code included in this project.
 
@@ -37,7 +56,7 @@ module.exports = {
         developers?: boolean,
         nsfw?: boolean
     },
-    run: (client, message, args) => void
+    run: (client, message, args) => {}
 };
 ```
 
@@ -51,7 +70,7 @@ module.exports = {
         developers?: boolean,
         nsfw?: boolean
     },
-    run: (client, interaction) => void
+    run: (client, interaction) => {}
 };
 ```
 
@@ -63,7 +82,7 @@ The `...args` is a spread operator of arguments from the event chosen. For an ex
 module.exports = {
     event: string,
     once?: boolean,
-    run: (client, ...args) => void
+    run: (client, ...args) => {}
 };
 ```
 
@@ -77,7 +96,7 @@ module.exports = {
     options?: {
         public?: boolean
     },
-    run: (client, interaction) => void
+    run: (client, interaction) => {}
 };
 ```
 
