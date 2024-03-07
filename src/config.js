@@ -1,8 +1,8 @@
 module.exports = {
   client: {
     token:
-      "ODEyMjQzOTk0Mjk3ODkyODY0.GQIRff.w9eaM4PlMDzqfTHU4-QjkzNgf64V4slcGekTwY",
-    id: "812243994297892864",
+      "#####",
+    id: "#####",
   },
   handler: {
     prefix: "?",
@@ -15,7 +15,7 @@ module.exports = {
     },
     mongodb: {
       enabled: false,
-      uri: "mongodb+srv://newuser:121009@rendom.9xzp3po.mongodb.net/?retryWrites=true&w=majority&appName=Rendom",
+      uri: "#####",
     },
   },
   users: {
